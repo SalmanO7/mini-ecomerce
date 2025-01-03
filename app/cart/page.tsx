@@ -45,7 +45,7 @@ const ShoppingCart = () => {
                     <h2 className="text-3xl font-semibold">
                         Your Shopping Cart is empty
                     </h2>
-                    <Link href="/" className="text-white bg-black py-2 px-5 rounded-xl my-5">
+                    <Link href={"/"} className="text-white bg-black py-2 px-5 rounded-xl my-5">
                         Shop Now
                     </Link>
                 </div>

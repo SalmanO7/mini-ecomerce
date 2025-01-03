@@ -37,8 +37,9 @@ const Products = ({ cardData }: { cardData: any }) => {
     const ExistProduct = cartData.find((cartItem: CartItem) => cartItem.id === cart.id);
 
     if (ExistProduct) {
-      console.log(ExistProduct)
+      alert('Product already exists')
     } else {
+      alert("Product Selected")
       const newCartItem = { ...cart, quantity: 1 }; 
       setCartData([...cartData, newCartItem]);      
     }

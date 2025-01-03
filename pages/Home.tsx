@@ -4,12 +4,10 @@ import React from 'react'
 const Home = () => {
   return (
     <div style={{
-      backgroundImage: 'url("/assets/Home123.jpg")',
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
+      backgroundImage: "url('/assets/home123.jpg')",
     }}
-      className="w-full flex justify-start px-12 items-center ">
+      className="w-full h-[100vh] bg-cover bg-center flex justify-start px-12 items-center"
+    >
       <div className="w-full sm:w-2/3 md:w-1/2 h-[100vh] flex justify-center items-start flex-col">
         <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
           Welcome to ShopEase

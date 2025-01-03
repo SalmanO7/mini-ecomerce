@@ -95,7 +95,7 @@ const ShoppingCart = () => {
                                         </Link>
                                     </td>
 
-                                    <td className="flex items-center justify-center gap-2">
+                                    <td className="flex items-center justify-center gap-[2px] sm:gap-1 md:gap-2">
                                         <AiTwotonePlusSquare
                                             className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 text-gray-800 text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
                                             onClick={() => handleIncrement(item.id)}

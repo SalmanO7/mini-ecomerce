@@ -89,10 +89,8 @@ const ShoppingCart = () => {
                                         />
                                     </td>
 
-                                    <td className="text-gray-700 font-medium">
-                                        <Link href={`/product/${item.id}`} className="text-[10px] xs:text-[12px] sm:text-sm md:text-base hover:text-gray-900">
-                                            {item.category}
-                                        </Link>
+                                    <td className="text-gray-700 font-medium text-[10px] xs:text-[12px] sm:text-sm md:text-base hover:text-gray-900">
+                                        {item.category}
                                     </td>
 
                                     <td className="flex items-center justify-center gap-[2px] sm:gap-1 md:gap-2">

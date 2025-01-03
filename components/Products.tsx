@@ -37,9 +37,9 @@ const Products = ({ cardData }: { cardData: any }) => {
     const ExistProduct = cartData.find((cartItem: CartItem) => cartItem.id === cart.id);
 
     if (ExistProduct) {
-      alert('Product already exists')
+      alert('Product already Selected for shopping cart')
     } else {
-      alert("Product Selected")
+      alert("Product Selected for Cart")
       const newCartItem = { ...cart, quantity: 1 }; 
       setCartData([...cartData, newCartItem]);      
     }
@@ -48,7 +48,7 @@ const Products = ({ cardData }: { cardData: any }) => {
 
 
   return (
-    <div className="" >
+    <div>
       <div className=" border border-[#e4e4e4] h-[220px] p-6  mb-4 relative overflow-hidden group transition">
         <div className="w-full h-full flex justify-center items-center">
           <div className="w-2/3 sm:w-full h-full flex justify-center items-center p-3">
@@ -102,7 +102,7 @@ const Products = ({ cardData }: { cardData: any }) => {
       <div className="text-start">
         <div className="text-sm capitalize text-gray-500 mb-2">{cardData.category}</div>
         <div>
-          <Link href={`/product/${cardData.id}`}>
+          <Link href={`/${cardData.id}`}>
             <h2 className="font-semibold mb-1">
               {cardData.title.length > 20 ? cardData.title.slice(0, 20) + "..." : cardData.title}
             </h2>

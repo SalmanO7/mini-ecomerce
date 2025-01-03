@@ -39,7 +39,7 @@ const ShoppingCart = () => {
     };
 
     return (
-        <div className="w-full px-7 flex justify-center items-center">
+        <div className="w-full px-7 flex justify-center h-screen pb-100">
             {cartData.length === 0 ? (
                 <div className="flex justify-center items-center flex-col h-[80vh]">
                     <h2 className="text-3xl font-semibold">

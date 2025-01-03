@@ -18,7 +18,7 @@ const Home = () => {
           Discover a hassle-free shopping experience tailored just for you. From top-quality products to seamless cart management, we’ve got everything covered!
         </p>
         <Link
-          href="/"
+          href="/cart"
           className="text-sm sm:text-balance inline-block border border-[#1c1c34] text-[#1c1c34] font-semibold bg-white sm:py-2 py-1 px-3 sm:px-4 rounded-md shadow-md hover:border hover:border-white hover:bg-[#1c1c34] hover:text-white"
         >
           Shop Now

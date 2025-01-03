@@ -62,12 +62,12 @@ const ShoppingCart = () => {
                             className="bg-gray-400 text-white"
                         >
                             <tr className="grid grid-cols-6 items-center text-center py-3 px-4">
-                                <th className="text-[12px] sm:text-sm font-semibold uppercase">Image</th>
-                                <th className="text-[12px] sm:text-sm font-semibold uppercase">Name</th>
-                                <th className="text-[12px] sm:text-sm font-semibold uppercase">Quantity</th>
-                                <th className="text-[12px] sm:text-sm font-semibold uppercase">Price</th>
-                                <th className="text-[12px] sm:text-sm font-semibold uppercase">Total</th>
-                                <th className="text-[12px] sm:text-sm font-semibold uppercase">Action</th>
+                                <th className="text-[10px] xs:text-[12px] sm:text-sm md:text-base md:font-semibold uppercase">Image</th>
+                                <th className="text-[10px] xs:text-[12px] sm:text-sm md:text-base md:font-semibold uppercase">Name</th>
+                                <th className="text-[10px] xs:text-[12px] sm:text-sm md:text-base md:font-semibold uppercase">Qty</th>
+                                <th className="text-[10px] xs:text-[12px] sm:text-sm md:text-base md:font-semibold uppercase">Price</th>
+                                <th className="text-[10px] xs:text-[12px] sm:text-sm md:text-base md:font-semibold uppercase">Total</th>
+                                <th className="text-[10px] xs:text-[12px] sm:text-sm md:text-base md:font-semibold uppercase">Action</th>
                             </tr>
                         </thead>
 
@@ -91,6 +91,7 @@ const ShoppingCart = () => {
 
                                     <td className="text-gray-700 font-medium text-[10px] xs:text-[12px] sm:text-sm md:text-base hover:text-gray-900">
                                         {item.category}
+
                                     </td>
 
                                     <td className="flex items-center justify-center gap-[2px] sm:gap-1 md:gap-2">

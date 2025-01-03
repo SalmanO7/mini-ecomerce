@@ -47,7 +47,7 @@ const Products = ({ cardData }: { cardData: any }) => {
 
 
   return (
-    <div className="" id='products'>
+    <div className="" >
       <div className=" border border-[#e4e4e4] h-[220px] p-6  mb-4 relative overflow-hidden group transition">
         <div className="w-full h-full flex justify-center items-center">
           <div className="w-2/3 sm:w-full h-full flex justify-center items-center p-3">
